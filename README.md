@@ -182,3 +182,6 @@ $ git pull
 # Autor 
 
 * **Gustavo Caspirro** - [Gustavo Caspirro](https://github.com/GustavoCaspirro)
+
+# Contribuições
+Sinta-se a vontade para realizar correções e adicionar informações.
