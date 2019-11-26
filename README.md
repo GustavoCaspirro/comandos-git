@@ -12,10 +12,6 @@ $ git config --global user.name "[nome]"
 ```sh
 $ git config --global user.email "[endereco-de-email]"
 ```
-- Configura o email que você quer ligado as suas transações de commit
-```sh
-$ git config --global color.ui auto
-````
 
 ## CRIE REPOSITÓRIOS
 Inicie um novo repositório ou obtenha de uma URL existente
@@ -28,6 +24,7 @@ $ git init [nome-do-projeto]
 ```sh
 $ git clone [url]
 ```
+
 ## FAÇA MUDANÇAS
 Revise edições e crie uma transação de commit
 
@@ -66,6 +63,11 @@ Nomeie uma série de commits e combine os esforços completos
 $ git branch
 ```
 
+- Lista todos os branches
+```sh
+$ git branch -a
+```
+
 - Cria um novo branch
 ```sh
 $ git branch [nome-do-branch]
@@ -76,6 +78,11 @@ $ git branch [nome-do-branch]
 $ git checkout [nome-do-branch]
 ```
 
+- Cria e Muda para o branch específico e atualiza o diretório de trabalho
+```sh
+$ git checkout -b [nome-do-branch]
+```
+
 - Combina o histórico do branch específico com o branch atual
 ```sh
 $ git merge [branch]
@@ -83,7 +90,7 @@ $ git merge [branch]
 
 - Exclui o branch específico
 ```sh
-$ git branch -d [nome-do-branch]
+$ git branch -D [nome-do-branch]
 ```
 
 ## REFATORE NOMES DOS ARQUIVOS
