@@ -83,6 +83,11 @@ $ git checkout [nome-do-branch]
 $ git checkout -b [nome-do-branch]
 ```
 
+- Limpa e e atualiza os arquivos que não foram adicionados
+```sh
+$ git checkout .
+```
+
 - Combina o histórico do branch específico com o branch atual
 ```sh
 $ git merge [branch]
@@ -149,6 +154,11 @@ $ git reset --hard [commit]
 
 ## SINCRONIZE MUDANÇAS
 Registre um marcador de repositório e troque o histórico de versão
+
+- Limpa arquivos de backup do merge
+```sh
+$ git clean [marcador]
+```
 
 - Baixe todo o histórico de um marcador de repositório
 ```sh
