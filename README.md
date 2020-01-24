@@ -53,6 +53,18 @@ $ git diff --staged
 ```sh
 $ git commit -m "[mensagem descritiva]"
 ```
+- Ele **cria um backup** das modificações de seus arquivos.
+```sh
+$ git stash ou git stash apply @{id} (caso tenha realizado mais de um git stash)
+```
+- **Para recuperar o backup** criado pelo git stash basta usar o comando.
+```sh
+$ git stash apply
+```
+- **Consultar todos os stash’s** criados.
+```sh
+$ git stash list
+```
 
 ## MUDANÇAS EM GRUPO
 Nomeie uma série de commits e combine os esforços completos
