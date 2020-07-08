@@ -11,6 +11,14 @@ $ git config --global user.name "[nome]"
 ```sh
 $ git config --global user.email "[endereco-de-email]"
 ```
+- **Listar Configurações** Lista configurações do git
+```sh
+$ git config list
+```
+- **Editar Configurações** Edita configuração git
+```sh
+$ git config edit
+```
 
 ## CRIE REPOSITÓRIOS
 Inicie um novo repositório ou obtenha de uma URL existente
